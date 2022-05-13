@@ -39,9 +39,9 @@ type Timing struct {
 	Receive int `json:"receive"`
 }
 
-func return_json(target string) Results {
+func return_json(target string) []Resource {
 	set_config(target)
-	return get_export_data(target + ".json")
+	return get_export_data(target + ".json").Log.Resources
 }
 
 func get_export_data(file string) Results {

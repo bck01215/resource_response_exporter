@@ -1,0 +1,119 @@
+{
+    "log": {
+        "version": "1.2",
+        "creator": {
+            "name": "PhantomJS",
+            "version": "2.1.1"
+        },
+        "pages": [
+            {
+                "startedDateTime": "2022-05-05T20:06:11.865Z",
+                "id": "https://example.com",
+                "title": "Example Domain",
+                "pageTimings": {
+                    "onLoad": 120
+                }
+            }
+        ],
+        "entries": [
+            {
+                "startedDateTime": "2022-05-05T20:06:11.864Z",
+                "time": 112,
+                "request": {
+                    "method": "GET",
+                    "url": "https://example.com/",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) PhantomJS/2.1.1 Version/9.0 Safari/602.1"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Content-Encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "Accept-Ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "Age",
+                            "value": "407726"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "max-age=604800"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "text/html; charset=UTF-8"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Thu, 05 May 2022 20:06:11 GMT"
+                        },
+                        {
+                            "name": "Etag",
+                            "value": "\"3147526947\""
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Thu, 12 May 2022 20:06:11 GMT"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Thu, 17 Oct 2019 07:18:26 GMT"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "ECS (dcb/7FA5)"
+                        },
+                        {
+                            "name": "Vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "X-Cache",
+                            "value": "HIT"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 1256,
+                    "content": {
+                        "size": 1256,
+                        "mimeType": "text/html; charset=UTF-8"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 103,
+                    "receive": 9,
+                    "ssl": -1
+                },
+                "pageref": "https://example.com"
+            }
+        ]
+    },
+    "failed": 0
+}

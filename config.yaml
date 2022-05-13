@@ -1,19 +1,4 @@
 websites:
-  - connection: flames
-    url: https://www.liberty.edu/flames
-    timeout: 10000
-
-  - connection: www
-    url: https://www.liberty.edu
-    timeout: 10000
-
-  - connection: online
-    url: https://www.liberty.edu/online
-    timeout: 10000
-
-  - connection: residential
-    url: https://www.liberty.edu/residential
-    timeout: 10000
 
   - connection: example
     url: https://example.com
